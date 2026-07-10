@@ -164,7 +164,7 @@ server <- function(input, output, session) {
     tagList(
       div(class = "alert alert-info",
           strong(current_seed_mode()),
-          sprintf(" — seed %s. Use this seed with the same inputs and meeting history to reproduce the draw.", current_seed())),
+          sprintf(" Seed is %s. Use this seed with the same inputs and meeting history to reproduce the draw.", current_seed())),
       lapply(seq_along(rounds), function(r) {
       div(class = "round-card",
         h3(sprintf("Round %d", r)),
