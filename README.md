@@ -2,6 +2,10 @@
 
 An R Shiny app for creating balanced random groupings while optionally minimizing repeated pairings across rounds and previously saved meetings.
 
+## Access it online
+
+[Random_Meeting](https://ohagen.github.io/Random_Meeting/)
+
 ## Run locally
 
 ```r
